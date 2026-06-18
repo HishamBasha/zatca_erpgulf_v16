@@ -20,6 +20,9 @@ add_to_apps_screen = [
 ]
 
 
+after_install = "zatca_erpgulf.zatca_erpgulf.install.after_install"
+
+
 scheduler_events = {
     "cron": {
         "*/30 * * * *": [
