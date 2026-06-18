@@ -54,6 +54,7 @@ from zatca_erpgulf.zatca_erpgulf.sales_invoice_with_xmlqr import (
     success_log,
     error_log,
 )
+from .utils import publish_realtime_safe
 
 SALES_INVOICE = "Sales Invoice"
 
@@ -307,10 +308,10 @@ def reporting_api_sales_withoutxml(
        
 
             try:
-                frappe.publish_realtime(
+                publish_realtime_safe(
                     "show_gif",
                     {"gif_url": "/assets/zatca_erpgulf/js/loading.gif"},
-                    user=frappe.session.user,
+                    user=getattr(getattr(frappe, "session", None), "user", None),
                 )
                 
                 response = requests.post(
@@ -361,7 +362,9 @@ def reporting_api_sales_withoutxml(
                         uuid=uuid1,
                         title=title
                     )
-                frappe.publish_realtime("hide_gif", user=frappe.session.user)
+                publish_realtime_safe(
+                    "hide_gif", user=getattr(getattr(frappe, "session", None), "user", None)
+                )
                 
                 if response.status_code in (400, 405, 406):
                     invoice_doc = frappe.get_doc(SALES_INVOICE, invoice_number)

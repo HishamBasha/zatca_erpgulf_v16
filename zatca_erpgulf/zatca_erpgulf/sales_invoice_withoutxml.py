@@ -6,6 +6,7 @@ import io
 from frappe import _
 import frappe
 import requests
+from .utils import publish_realtime_safe
 from zatca_erpgulf.zatca_erpgulf.event_log import log_zatca_event
 from pyqrcode import create as qr_create
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
@@ -308,10 +309,10 @@ def reporting_api_sales_withoutxml(
         }
         if company_doc.custom_send_invoice_to_zatca != "Batches":
             try:
-                frappe.publish_realtime(
+                publish_realtime_safe(
                     "show_gif",
                     {"gif_url": "/assets/zatca_erpgulf/js/loading.gif"},
-                    user=frappe.session.user,
+                    user=getattr(getattr(frappe, "session", None), "user", None),
                 )
                 response = requests.post(
                     url=get_api_url(company_abbr, base_url="invoices/reporting/single"),
@@ -319,7 +320,7 @@ def reporting_api_sales_withoutxml(
                     json=payload,
                     timeout=300,
                 )
-                frappe.publish_realtime("hide_gif", user=frappe.session.user)
+                publish_realtime_safe("hide_gif", user=getattr(getattr(frappe, "session", None), "user", None))
                 if response.status_code in (200, 202, 409):
                     if response.status_code == 200:
                         status_label = "Success"

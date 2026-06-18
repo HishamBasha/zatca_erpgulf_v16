@@ -21,6 +21,7 @@ from cryptography.hazmat.primitives import serialization, hashes
 from cryptography.hazmat.primitives.asymmetric import ec
 import requests
 import asn1
+from .utils import publish_realtime_safe
 
 SUPPORTED_INVOICES = ["Sales Invoice", "POS Invoice"]
 
@@ -365,10 +366,10 @@ def create_csid(zatca_doc: dict | str, company_abbr:str):
             "Cookie": "TS0106293e=0132a679c07382ce7821148af16b99da546c13ce1dcddbef0e19802eb470e539a4d39d5ef63d5c8280b48c529f321e8b0173890e4f",
         }
 
-        frappe.publish_realtime(
+        publish_realtime_safe(
             "show_gif",
             {"gif_url": "/assets/zatca_erpgulf/js/loading.gif"},
-            user=frappe.session.user,
+            user=getattr(getattr(frappe, "session", None), "user", None),
         )
 
         response = requests.post(
@@ -377,7 +378,7 @@ def create_csid(zatca_doc: dict | str, company_abbr:str):
             data=payload,
             timeout=300,
         )
-        frappe.publish_realtime("hide_gif", user=frappe.session.user)
+        publish_realtime_safe("hide_gif", user=getattr(getattr(frappe, "session", None), "user", None))
 
         if response.status_code == 400:
             frappe.throw(_("Error: OTP is not valid. " + response.text))
@@ -1211,15 +1212,11 @@ def structuring_signedxml(invoice_number,updated_xml_string):
         adjust_indentation(line) for line in updated_xml_string.splitlines(keepends=True)
         ]
         safe_invoice_number = invoice_number.replace("/", "-")
+        site_path = frappe.get_site_path("private", "files", f"final_xml_after_indent_{safe_invoice_number}.xml")
         # nosemgrep: frappe-semgrep-rules.rules.security.frappe-security-file-traversal
-        with open(
-            f"{frappe.local.site}/private/files/final_xml_after_indent_{safe_invoice_number}.xml",
-            "w",
-            encoding="utf-8",
-        ) as file: 
+        with open(site_path, "w", encoding="utf-8") as file:
             file.writelines(adjusted_xml_content)
     
-
         # adjusted_xml_content = [adjust_indentation(line) for line in updated_xml_string]
         # with open(
         #     f"{frappe.local.site}/private/files/final_xml_after_indent_{invoice_number}.xml",
@@ -1227,9 +1224,7 @@ def structuring_signedxml(invoice_number,updated_xml_string):
         #     encoding="utf-8",
         # ) as file:
         #     file.writelines(adjusted_xml_content)
-        signed_xmlfile_name = (
-            f"{frappe.local.site}/private/files/final_xml_after_indent_{safe_invoice_number}.xml"
-        )
+        signed_xmlfile_name = site_path
         return signed_xmlfile_name
     except (ValueError, KeyError, TypeError, frappe.ValidationError) as e:
         frappe.throw(_(" error in structuring signed xml: " + str(e)))
@@ -1349,10 +1344,10 @@ def production_csid(zatca_doc: dict | str, company_abbr:str):
             "Authorization": "Basic " + csid,
             "Content-Type": "application/json",
         }
-        frappe.publish_realtime(
+        publish_realtime_safe(
             "show_gif",
             {"gif_url": "/assets/zatca_erpgulf/js/loading.gif"},
-            user=frappe.session.user,
+            user=getattr(getattr(frappe, "session", None), "user", None),
         )
 
         response = requests.post(
@@ -1361,7 +1356,7 @@ def production_csid(zatca_doc: dict | str, company_abbr:str):
             json=payload,
             timeout=300,
         )
-        frappe.publish_realtime("hide_gif", user=frappe.session.user)
+        publish_realtime_safe("hide_gif", user=getattr(getattr(frappe, "session", None), "user", None))
         frappe.msgprint(_(response.text))
 
         if response.status_code != 200:

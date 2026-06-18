@@ -92,3 +92,24 @@ def generate_qr_for_doc(doctype, docname, url, file_field=None):
         url=url,
         file_field=file_field
     )
+
+
+def publish_realtime_safe(event, message=None, user=None):
+    """Safely publish realtime events even when `frappe.session` is not available (e.g., background jobs).
+
+    Use this wrapper instead of calling `frappe.publish_realtime(..., user=frappe.session.user)` directly.
+    """
+    try:
+        if user:
+            target_user = user
+        else:
+            target_user = None
+            if hasattr(frappe, "session") and getattr(frappe, "session"):
+                try:
+                    target_user = getattr(frappe.session, "user", None)
+                except Exception:
+                    target_user = None
+
+        frappe.publish_realtime(event, message, user=target_user)
+    except Exception:
+        frappe.log_error(f"Failed to publish realtime event: {event}")

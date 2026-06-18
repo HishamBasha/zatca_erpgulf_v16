@@ -1,0 +1,2694 @@
+# Translations template for Zatca Erpgulf.
+# Copyright (C) 2026 ERPGulf
+# This file is distributed under the same license as the Zatca Erpgulf project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zatca Erpgulf VERSION\n"
+"Report-Msgid-Bugs-To: support@ERPGulf.com\n"
+"POT-Creation-Date: 2026-06-14 23:03+0307\n"
+"PO-Revision-Date: 2026-06-14 23:03+0307\n"
+"Last-Translator: support@ERPGulf.com\n"
+"Language-Team: support@ERPGulf.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#. Label of the custom__company_name_in_arabic__ (Data) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid " Company name in Arabic  "
+msgstr ""
+
+#. Label of the custom__use_company_certificate__keys (Check) field in DocType
+#. 'ZATCA Multiple Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid " Use Company Certificate & Keys"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:604
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:823
+msgid " error in generating signed properties hash: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:972
+msgid " error in getting the tlv data value: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:563
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:782
+msgid " error in modification of xml sign part: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:952
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:1235
+msgid " error in structuring signed xml: "
+msgstr ""
+
+#. Label of a number card in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "503 Service Unavailable This "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:716
+msgid ": "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:720
+msgid ": No response or unknown error from the API."
+msgstr ""
+
+#. Header text in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "<span class=\"h4\">ZATCA ERPGulf</span>"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:500
+msgid "Activate Compliance CSID"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1176
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1542
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1957
+msgid "Additional discount cannot be negative. Please enter a positive value."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/vat_report_zatca_on_sales_&_purchase/vat_report_zatca_on_sales_&_purchase.py:656
+msgid "Adjustment (SAR)"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1190
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1556
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1513
+msgid "Already submitted to Zakat and Tax Authority"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/debug_xml.py:267
+msgid "Already the xml attached"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/vat_report_zatca_on_sales_&_purchase/vat_report_zatca_on_sales_&_purchase.py:650
+msgid "Amount (SAR)"
+msgstr ""
+
+#. Label of the api_response (Long Text) field in DocType 'ZATCA ERPGulf Event
+#. Log'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_event_log/zatca_erpgulf_event_log.json
+msgid "Api Response"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/create_qr.py:83
+msgid "Arabic name missing for {} in the company document"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1068
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1424
+msgid "As per ZATCA regulation, Address Line 1 is required in customer address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1126
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1482
+msgid "As per ZATCA regulation, Address Line 1 is required in the company address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1133
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1489
+msgid "As per ZATCA regulation, Address Line 2 is required in the company address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1084
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1440
+msgid "As per ZATCA regulation, Building Number must be exactly 4 digits in customer address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1144
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1500
+msgid "As per ZATCA regulation, Building Number must be exactly 4 digitsin company address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1035
+msgid "As per ZATCA regulation, Check the ZATCA category code and enable it as standard."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1116
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1472
+msgid "As per ZATCA regulation, Company Tax ID is mandatory"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1121
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1477
+msgid "As per ZATCA regulation, Company Tax ID must be a 15-digit number"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1109
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1465
+msgid "As per ZATCA regulation, Customer Tax ID must be exactly 15 digits."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1060
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1416
+msgid "As per ZATCA regulation, Customer address is mandatory for non-B2C customers."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1353
+msgid "As per ZATCA regulation, Item Tax Template cannot be used when taxes are included in the print rate. Please remove Item Tax Templates."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1094
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1450
+msgid "As per ZATCA regulation, Pincode must be exactly 5 digits in customer address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1101
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1457
+msgid "As per ZATCA regulation, Tax ID is required for customers in Saudi Arabia."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1162
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1518
+msgid "As per ZATCA regulation, ZATCA does not respond for multiple items with multiple tax categories with doc-level discount. Please ensure all items have the same tax category."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1023
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1378
+msgid "As per ZATCA regulation, ZATCA tax category should be 'Zero Rated', 'Exempted' or 'Services outside scope of tax / Not subject to VAT' for items with tax rate not equal to 5.00 or 15.00."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1738
+msgid "As per ZATCA regulation, only the document level discount is possible for ZATCA nominal invoices. Please ensure the discount is applied correctly."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/tax_error.py:112
+msgid "As per ZATCA regulation, the Billing Reference ID (Original Invoice Number) is mandatory for Credit Notes and Return Invoices. Please select the original invoice in the 'Return Against' field."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1074
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1430
+msgid "As per ZATCA regulation,Address Line 2 is required in customer address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1390
+msgid "As per ZATCA regulation,Check the ZATCA category code and enable it as standard."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1222
+msgid "As per ZATCA regulation,If any one item has an Item Tax Template, all items must have an Item Tax Template."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:998
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1210
+msgid "As per ZATCA regulation,Item Tax Template cannot be used when taxes are included in the print rate. Please remove Item Tax Templates."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1155
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1511
+msgid "As per ZATCA regulation,Pincode must be exactly 5 digits in company address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/tax_error.py:103
+msgid "As per ZATCA regulation,Tax information is missing from the Sales Invoice. Either add an Item Tax Template for all items or include taxes in the invoice."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1043
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1399
+msgid "As per ZATCA regulation- For B2B Customers, customer CR number has to be provided"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1334
+msgid "As per ZATCA regulations - For B2B Customers, customer CR number has to be provided"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1360
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1826
+msgid "As per ZATCA regulations, Address Line 1 is required in customer address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1285
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1763
+msgid "As per ZATCA regulations, Address Line 1 is required in the company address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1832
+msgid "As per ZATCA regulations, Address Line 2 is required in customer address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1292
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1770
+msgid "As per ZATCA regulations, Address Line 2 is required in the company address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1444
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1907
+msgid "As per ZATCA regulations, Advance allocation is supported for non B2C customers. Please change the Customer type to B2B."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1843
+msgid "As per ZATCA regulations, Building Number must be exactly 4 digits in customer address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1303
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1781
+msgid "As per ZATCA regulations, Building Number must be exactly 4 digitsin company address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1266
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1744
+msgid "As per ZATCA regulations, Company Tax ID is mandatory"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1270
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1748
+msgid "As per ZATCA regulations, Company Tax ID must be a 15-digit number"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1278
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1756
+msgid "As per ZATCA regulations, Company Tax ID must start with 3 and end with 3"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1428
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1891
+msgid "As per ZATCA regulations, Customer Tax ID must be exactly 15 digits and start with 3 and end with 3."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1869
+msgid "As per ZATCA regulations, Customer Tax ID must be exactly 15 digits."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1415
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1878
+msgid "As per ZATCA regulations, Customer Tax ID must start with 3 and end with 3."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1352
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1818
+msgid "As per ZATCA regulations, Customer address is mandatory for non-B2C customers."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1927
+msgid "As per ZATCA regulations, For nominal invoices, please disable line item discounts by unchecking 'Submit Line Item Discount to ZATCA'."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1465
+msgid "As per ZATCA regulations, For nominal invoices, please disable line itemdiscounts by unchecking 'Submit Line Item Discount to ZATCA'."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1690
+msgid "As per ZATCA regulations, If any one item has an Item Tax Template, all items must have an Item Tax Template."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1677
+msgid "As per ZATCA regulations, Item Tax Template cannot be used when taxes are included in the print rate. Please remove Item Tax Templates."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1314
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1792
+msgid "As per ZATCA regulations, Pincode must be exactly 5 digits in company address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1389
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1853
+msgid "As per ZATCA regulations, Pincode must be exactly 5 digits in customer address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1861
+msgid "As per ZATCA regulations, Tax ID is required for customers in Saudi Arabia."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1934
+msgid "As per ZATCA regulations, ZATCA does not respond for multiple items with multiple tax categories and a document-level discount. Please ensure all items have the same tax category."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1473
+msgid "As per ZATCA regulations, ZATCA does not respond for multiple items with multiple tax categories with doc-level discount. Please ensure all items have the same tax category."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1715
+msgid "As per ZATCA regulations, ZATCA tax category should be 'Zero Rated', 'Exempted', or 'Services outside scope of tax / Not subject to VAT' for items with tax rate not equal to 5.00 or 15.00."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1491
+msgid "As per ZATCA regulations,Additional discount cannot be negative. Please enter a positive value."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1366
+msgid "As per ZATCA regulations,Address Line 2 is required in customer address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1379
+msgid "As per ZATCA regulations,Building Number must be exactly 4 digits in customer address."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1406
+msgid "As per ZATCA regulations,Customer Tax ID must be exactly 15 digits."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1917
+#, python-format
+msgid "As per ZATCA regulations,Only a 100% discount is allowed for ZATCA nominal invoices. Please ensure the additional discount percentage is set to 100."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1454
+#, python-format
+msgid "As per ZATCA regulations,Only a 100% discount is allowed for ZATCA nominal invoices.Please ensure the additional discount percentage is set to 100."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1398
+msgid "As per ZATCA regulations,Tax ID is required for customers in Saudi Arabia."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1944
+msgid "As per ZATCA regulations,You cannot apply a discount on the Grand Total as the tax is already calculated. Please apply your discount on the Net Total."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1483
+msgid "As per ZATCA regulations,You cannot put discount on Grand total as the tax is already calculated. Please make sure your discount is in Net total field."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1800
+msgid "As per ZATCA regulations- For B2B Customers, customer CR number has to be provided"
+msgstr ""
+
+#. Label of the custom_attach_qr_code_doctype (Check) field in DocType
+#. 'Company'
+#. Label of the attach_qr_code_doctype (Check) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Attach QR code doctype"
+msgstr ""
+
+#. Label of the custom_attach_xml_with_qr_code (Check) field in DocType
+#. 'Company'
+#. Label of the attach_xml_with_qr_code (Check) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Attach XML with QR code"
+msgstr ""
+
+#. Label of the custom_attach_xml_with_invoice (Check) field in DocType
+#. 'Company'
+#. Label of the attach_xml_with_invoice (Check) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Attach XML with invoice"
+msgstr ""
+
+#. Label of the custom_attach_e_invoice_send_status_with_invoice (Check) field
+#. in DocType 'Company'
+#. Label of the attach_e_invoice_send_status_with_invoice (Check) field in
+#. DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Attach e_invoice send status with invoice"
+msgstr ""
+
+#. Label of the custom_auto_create_pdfa3 (Check) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Auto Create PDF-A3"
+msgstr ""
+
+#. Label of the custom_section_break_qauoe (Section Break) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Auto Creation of  PDF-A3"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_schedule_background.py:173
+msgid "B2B is not supported for POS Invoices,customer should be B2C pos without xml"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_submit__without_xml.py:174
+msgid "B2B is not supported for POS Invoices,customer should be B2C pos without xml during create xml"
+msgstr ""
+
+#. Label of the custom_b2c (Check) field in DocType 'Sales Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "B2C"
+msgstr ""
+
+#. Option for the 'Select submission method for B2C  ( B2B always send Live as
+#. per ZATCA instruction )' (Select) field in DocType 'Company'
+#. Option for the 'Send POS invoice to zatca' (Select) field in DocType 'Zatca
+#. ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Background"
+msgstr ""
+
+#. Label of the custom_end_time (Time) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Background submission End Time"
+msgstr ""
+
+#. Label of the custom_end_time_session (Time) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Background submission End Time ( Session-2 )"
+msgstr ""
+
+#. Label of the custom_start_time (Time) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Background submission Start Time"
+msgstr ""
+
+#. Label of the custom_start_time_session (Time) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Background submission Start Time ( Session-2 )"
+msgstr ""
+
+#. Label of the custom_basic_auth_from_csid (Small Text) field in DocType
+#. 'ZATCA Multiple Setting'
+#. Label of the custom_basic_auth_from_csid (Long Text) field in DocType
+#. 'Company'
+#. Label of the basic_auth (Long Text) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:614
+msgid "Basic Auth from CSID"
+msgstr ""
+
+#. Label of the basic_auth_production (Long Text) field in DocType 'Zatca
+#. ERPgulf Setting'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Basic Auth from production"
+msgstr ""
+
+#. Option for the 'Select submission method for B2C  ( B2B always send Live as
+#. per ZATCA instruction )' (Select) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Batches"
+msgstr ""
+
+#. Option for the 'ZATCA Account Type' (Select) field in DocType 'Account'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Both"
+msgstr ""
+
+#. Label of the custom_building_number (Data) field in DocType 'Address'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:361
+msgid "Building Number"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_debug_xml.py:125
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1327
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1433
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1896
+msgid "Buyer ID must be blank if Buyer ID Type is not set."
+msgstr ""
+
+#. Option for the 'Zatca - Registration Type' (Select) field in DocType 'Cost
+#. Center'
+#. Option for the 'Customer ID Type for ZATCA' (Select) field in DocType
+#. 'Customer'
+#. Option for the 'ZATCA - Registration Type' (Select) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "CRN"
+msgstr ""
+
+#. Label of the custom_csr_config (Long Text) field in DocType 'Company'
+#. Label of the csr_config (Long Text) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:384
+msgid "CSR Config"
+msgstr ""
+
+#. Label of the custom_csr_data (Long Text) field in DocType 'Company'
+#. Label of the csr_data (Long Text) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "CSR Data"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_multiple_setting/zatca_multiple_setting.js:175
+msgid "CSR created successfully."
+msgstr ""
+
+#. Label of the custom_csr_data (Long Text) field in DocType 'ZATCA Multiple
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "CSR data"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/vat_report_zatca_on_sales_&_purchase/vat_report_zatca_on_sales_&_purchase.py:643
+msgid "Category"
+msgstr ""
+
+#. Label of the custom_certficate (Long Text) field in DocType 'ZATCA Multiple
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Certficate"
+msgstr ""
+
+#. Label of the custom_check_compliance (Button) field in DocType 'Company'
+#. Label of the check_compliance (Button) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Check Compliance"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:1309
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:1399
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1727
+msgid "Check the ZATCA category code and enable it as Standard."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1261
+msgid "Check the ZATCA category code and enable it as standard."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:365
+msgid "City"
+msgstr ""
+
+#. Label of a number card in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Cleared This Month"
+msgstr ""
+
+#. Label of the company (Link) field in DocType 'Zatca ERPgulf Setting'
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+#: zatca_erpgulf/zatca_erpgulf/report/vat_report_zatca_on_sales_&_purchase/vat_report_zatca_on_sales_&_purchase.js:7
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.js:8
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.py:36
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.js:8
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.py:36
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_status_report/zatca_status_report.js:5
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Company"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:346
+msgid "Company Details"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pdf_a3.py:289
+msgid "Company Language is not set. PDF-A3 creation skipped."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:350
+msgid "Company Name"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pdf_a3.py:285
+msgid "Company Print Format is not set. PDF-A3 creation skipped."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/csr_configuration.py:31
+msgid "Company category for CSR configuration is required."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/csr_configuration.py:33
+msgid "Company name is required."
+msgstr ""
+
+#. Label of the custom_compliance_csid_generation (Section Break) field in
+#. DocType 'Company'
+#. Label of the compliance_csid_generation_section (Section Break) field in
+#. DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Compliance CSID Generation"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:637
+msgid "Compliance Conditions"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:1030
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:1343
+msgid "Compliance request ID for company  not found"
+msgstr ""
+
+#. Label of the custom_compliance_request_id_ (Data) field in DocType 'ZATCA
+#. Multiple Setting'
+#. Label of the custom_compliance_request_id_ (Small Text) field in DocType
+#. 'Company'
+#. Label of the compliance_request_id (Small Text) field in DocType 'Zatca
+#. ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Compliance request id "
+msgstr ""
+
+#. Label of a Card Break in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Configurations"
+msgstr ""
+
+#. Label of the custom_costcenter (Check) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Conside Cost-Center as branch. ( If checked- Need to add Branch CRN and Address in Cost Center )"
+msgstr ""
+
+#. Label of the custom_create_csr (Button) field in DocType 'ZATCA Multiple
+#. Setting'
+#. Label of the custom_create_csr (Button) field in DocType 'Company'
+#. Label of the create_csr (Button) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:380
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:390
+msgid "Create CSR"
+msgstr ""
+
+#. Label of the custom_create_csr_configuration (Button) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Create CSR Configuration"
+msgstr ""
+
+#: zatca_erpgulf/public/js/our_pos_invoice.js:341
+#: zatca_erpgulf/public/js/our_sales_invoice.js:451
+msgid "Create XML for Debug"
+msgstr ""
+
+#. Label of the custom_csr_config (Long Text) field in DocType 'ZATCA Multiple
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Csr Config"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/zatca_dashboard/zatca_dashboard.js:36
+msgid "Current Month Zatca Status"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_duplicate_uuid_invoices/zatca_duplicate_uuid_invoices.py:72
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.py:41
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.py:41
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_status_report/zatca_status_report.py:8
+msgid "Customer"
+msgstr ""
+
+#. Label of the custom_buyer_id (Data) field in DocType 'Customer'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Customer ID Number for ZATCA"
+msgstr ""
+
+#. Label of the custom_buyer_id_type (Select) field in DocType 'Customer'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Customer ID Type for ZATCA"
+msgstr ""
+
+#. Label of the zatca_customer_name_in_arabic (Data) field in DocType
+#. 'Customer'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Customer Name Arabic"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:527
+#: zatca_erpgulf/zatca_erpgulf/createxml.py:680
+msgid "Customer address is mandatory for non-B2C customers."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_debug_xml.py:154
+msgid "Customer should be B2C POS without XML during create XML."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_status_report/zatca_status_report.py:7
+msgid "Date"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/tax_error.py:122
+msgid "Debit Note must reference a Sales Invoice in 'Return Against'."
+msgstr ""
+
+#. Label of the custom_details_and_otp (Section Break) field in DocType
+#. 'Company'
+#. Label of the details_and_otp_section (Section Break) field in DocType 'Zatca
+#. ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Details and OTP"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:457
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:586
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:805
+msgid "Dialog reference not found."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/wizardbutton.py:74
+msgid "DigestValue not found in the XML file."
+msgstr ""
+
+#. Label of the custom_send_einvoice_background (Check) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Display ZATCA response on the screen ( Untick for silent submission ) "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/validations.py:40
+msgid "Duplicating invoice"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:800
+#: zatca_erpgulf/zatca_erpgulf/create_xml_final_part.py:1419
+#: zatca_erpgulf/zatca_erpgulf/pos_final.py:561
+msgid "Encoding error occurred while processing the XML file. Please contact your system administrator."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:490
+msgid "Enter OTP"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:315
+msgid "Error"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:959
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1173
+msgid "Error in ZATCA invoice call: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1595
+msgid "Error in background call : "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1637
+msgid "Error in background call submit: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1266
+msgid "Error in background call: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:299
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:408
+msgid "Error in creating CSID: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:419
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:601
+msgid "Error in digital signature:"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:694
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:950
+msgid "Error in extracting public key data: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:845
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:1120
+msgid "Error in getting the entire TLV data: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:493
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:710
+msgid "Error in obtaining certificate hash chcek cert data: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:667
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:905
+msgid "Error in populating UBL extension output: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:1071
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:1391
+msgid "Error in production CSID formation: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:1368
+msgid "Error in production:"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:1055
+msgid "Error in production: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:732
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:988
+msgid "Error in tag 8 from public key: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:766
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:1040
+msgid "Error in tag 9 (signaturetag): "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:508
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:724
+msgid "Error in xml base64:  "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:459
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:659
+msgid "Error inextracting certificate details"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:792
+#: zatca_erpgulf/zatca_erpgulf/create_xml_final_part.py:1411
+#: zatca_erpgulf/zatca_erpgulf/pos_final.py:552
+msgid "Error occurred in XML parsing or formatting. Please check the XML structure for errors. If the problem persists, contact your system administrator."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:336
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:498
+msgid "Error occurred while creating public key: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:353
+msgid "Error while retrieving  PIH of company for production:"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:283
+msgid "Error: Issue with Certificate or OTP."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:385
+msgid "Error: Issue with Certificate or OTP. "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:281
+msgid "Error: OTP is not valid."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:383
+msgid "Error: OTP is not valid. "
+msgstr ""
+
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'POS Invoice'
+#. Option for the 'Zatca Tax Category' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Exempted"
+msgstr ""
+
+#. Label of the custom_exemption_reason_code (Select) field in DocType 'POS
+#. Invoice'
+#. Label of the custom_exemption_reason_code (Select) field in DocType 'Item
+#. Tax Template'
+#. Label of the custom_exemption_reason_code (Select) field in DocType
+#. 'Purchase Invoice'
+#. Label of the custom_exemption_reason_code (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Exemption Reason Code"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:461
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:809
+msgid "Failed to create CSR. Please check the logs."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:469
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:600
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:727
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:817
+msgid "Failed to fetch company abbreviation."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:591
+msgid "Failed to generate CSID. Please check the logs."
+msgstr ""
+
+#: zatca_erpgulf/public/js/our_sales_invoice.js:190
+msgid "Failed to generate PDF-A3"
+msgstr ""
+
+#: zatca_erpgulf/public/js/resubmit.js:67
+#: zatca_erpgulf/public/js/resubmitpos.js:39
+msgid "Failed to resubmit some invoices. Please check logs for details."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:605
+msgid "Failed to save OTP. Please try again."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:480
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:488
+msgid "Field `custom_public_key` not found in Company Doctype."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:469
+msgid "Field `custom_public_key` not found in ZATCA Multiple Setting Doctype."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:784
+#: zatca_erpgulf/zatca_erpgulf/create_xml_final_part.py:1403
+#: zatca_erpgulf/zatca_erpgulf/pos_final.py:543
+msgid "File operation error occurred while structuring the XML. Please contact your system administrator."
+msgstr ""
+
+#. Label of the custom_production__csid__generation (Section Break) field in
+#. DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Final  CSID  Generation"
+msgstr ""
+
+#. Label of the custom_final_auth_csid (Long Text) field in DocType 'ZATCA
+#. Multiple Setting'
+#. Label of the custom_basic_auth_from_production (Long Text) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:826
+msgid "Final Auth CSID"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:742
+msgid "Final CSID Generation"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_status_report/zatca_status_report.js:13
+msgid "From"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/vat_report_zatca_on_sales_&_purchase/vat_report_zatca_on_sales_&_purchase.js:15
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_duplicate_uuid_invoices/zatca_duplicate_uuid_invoices.js:8
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.js:16
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.js:16
+msgid "From Date"
+msgstr ""
+
+#. Option for the 'Customer ID Type for ZATCA' (Select) field in DocType
+#. 'Customer'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "GCC"
+msgstr ""
+
+#. Label of the custom_generate_compliance_csid (Button) field in DocType
+#. 'ZATCA Multiple Setting'
+#. Label of the custom_generate_compliance_csid (Button) field in DocType
+#. 'Company'
+#. Label of the csid_attach (Button) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Generate Compliance CSID"
+msgstr ""
+
+#. Label of the custom_generate_final_csids (Button) field in DocType 'ZATCA
+#. Multiple Setting'
+#. Label of the custom_generate_production_csids (Button) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:747
+msgid "Generate Final CSIDs"
+msgstr ""
+
+#: zatca_erpgulf/public/js/our_sales_invoice.js:137
+#: zatca_erpgulf/public/js/our_sales_invoice.js:170
+msgid "Generate PDF-A3"
+msgstr ""
+
+#. Label of the production_csid (Button) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Generate Production CSID"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:477
+msgid "Generated CSR Data"
+msgstr ""
+
+#: zatca_erpgulf/public/js/our_pos_invoice.js:348
+#: zatca_erpgulf/public/js/our_sales_invoice.js:458
+msgid "Generating Debug XML..."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_duplicate_uuid_invoices/zatca_duplicate_uuid_invoices.py:79
+msgid "Grand Total"
+msgstr ""
+
+#. Option for the 'Customer ID Type for ZATCA' (Select) field in DocType
+#. 'Customer'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "IQA"
+msgstr ""
+
+#. Label of the custom_submit_or_not (Check) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "If Invoice still in Draft status, submit and send to ZATCA( Applicable for B2C/POS Invoice only ) "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1081
+msgid "If any one item has an Item Tax Template, all items must have an Item Tax Template."
+msgstr ""
+
+#. Option for the 'ZATCA Account Type' (Select) field in DocType 'Account'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Input Tax"
+msgstr ""
+
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Input VAT Report"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:296
+msgid "Integration Type"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_status_report/zatca_status_report.py:6
+msgid "Inv.Number"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:131
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:182
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:325
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:1322
+msgid "Invalid 'zatca_doc' format. Must include 'doctype' and 'name'."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml.py:977
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:837
+msgid "Invalid or missing ZATCA VAT category in the Item Tax Templatelinked to Sales Invoice Item. Ensure each Item Tax Templateincludes one of the following categories:'Standard', 'Zero Rated', 'Exempted', or 'Services outside scope of tax / Not subject to VAT'."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:466
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:597
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:814
+msgid "Invalid portal type or company abbreviation."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.py:29
+msgid "Invoice No"
+msgstr ""
+
+#. Label of the invoice_number (Data) field in DocType 'ZATCA ERPGulf Event
+#. Log'
+#. Label of the invoice_number (Data) field in DocType 'ZATCA ERPGulf Success
+#. Log'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_event_log/zatca_erpgulf_event_log.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_success_log/zatca_erpgulf_success_log.json
+msgid "Invoice Number"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:863
+msgid "Invoice Number is NOT Valid1:"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:1173
+#: zatca_erpgulf/zatca_erpgulf/pos_schedule_background.py:71
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:708
+#: zatca_erpgulf/zatca_erpgulf/pos_submit__without_xml.py:71
+msgid "Invoice Number is NOT Valid:"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sales_invoice_withoutxml.py:118
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:889
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1071
+#: zatca_erpgulf/zatca_erpgulf/zatca_background_sched.py:119
+msgid "Invoice Number is NOT Valid: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_debug_xml.py:128
+msgid "Invoice Number is NOT valid:"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:246
+msgid "Is Offline POS?"
+msgstr ""
+
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Item Tax Templates"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:88
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:30
+#: zatca_erpgulf/zatca_erpgulf/xml_tax_data.py:64
+msgid "JSON decoding error occurred in tax for item: "
+msgstr ""
+
+#. Label of the ksa_einv_qr (Attach Image) field in DocType 'Sales Invoice'
+#. Label of the ksa_einv_qr (Attach Image) field in DocType 'POS Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "KSA E-Invoicing QR"
+msgstr ""
+
+#. Label of the custom_ksa_einvoicing_xml (Data) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "KSA E-Invoicing XML"
+msgstr ""
+
+#. Label of the custom_ksa_einvoicing_xml (Data) field in DocType 'POS Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "KSA E-invoice xml"
+msgstr ""
+
+#. Label of the custom_keys__certificate_for_zatca (Section Break) field in
+#. DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Keys & Certificate For ZATCA"
+msgstr ""
+
+#. Label of the keys_for_zatca_section (Section Break) field in DocType 'Zatca
+#. ERPgulf Setting'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Keys & Certificate For Zatca"
+msgstr ""
+
+#. Label of the custom_language (Link) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/public/js/our_sales_invoice.js:164
+msgid "Language"
+msgstr ""
+
+#. Label of the custom_letterhead (Link) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/public/js/our_sales_invoice.js:157
+msgid "Letterhead"
+msgstr ""
+
+#. Option for the 'Select submission method for B2C  ( B2B always send Live as
+#. per ZATCA instruction )' (Select) field in DocType 'Company'
+#. Option for the 'Send POS invoice to zatca' (Select) field in DocType 'Zatca
+#. ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Live"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/csr_configuration.py:29
+msgid "Location for CSR configuration is required."
+msgstr ""
+
+#. Option for the 'Zatca - Registration Type' (Select) field in DocType 'Cost
+#. Center'
+#. Option for the 'Customer ID Type for ZATCA' (Select) field in DocType
+#. 'Customer'
+#. Option for the 'ZATCA - Registration Type' (Select) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "MLS"
+msgstr ""
+
+#. Option for the 'Zatca - Registration Type' (Select) field in DocType 'Cost
+#. Center'
+#. Option for the 'Customer ID Type for ZATCA' (Select) field in DocType
+#. 'Customer'
+#. Option for the 'ZATCA - Registration Type' (Select) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "MOM"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/wizardbutton.py:104
+msgid "Machine name is required for offline POS."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/zatca_dashboard/zatca_dashboard.js:26
+msgid "Malik"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:327
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:929
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:939
+msgid "Mandatory Field Missing"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:965
+msgid "Mandatory Fields Missing"
+msgstr ""
+
+#. Label of the message (Long Text) field in DocType 'ZATCA ERPGulf Success
+#. Log'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_success_log/zatca_erpgulf_success_log.json
+msgid "Message"
+msgstr ""
+
+#. Label of a chart in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Monthly Invoices Reported to ZATCA"
+msgstr ""
+
+#. Option for the 'Customer ID Type for ZATCA' (Select) field in DocType
+#. 'Customer'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "NAT"
+msgstr ""
+
+#. Label of a quick_list in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "New Invoices"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:276
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:323
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:374
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:484
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:618
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:735
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:830
+msgid "Next"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:58
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:53
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:91
+msgid "No CSR config found in company settings"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:508
+msgid "No Cost Center is set in the POS invoice."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:561
+msgid "No Cost Center is set in the POS invoice.Give the feild"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:315
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:446
+msgid "No certificate data found."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_multiple_setting/zatca_multiple_setting.js:181
+msgid "No company data found."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:407
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:589
+msgid "No private key data found for the company."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:1051
+msgid "Not Found"
+msgstr ""
+
+#. Label of a number card in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Not Submitted This Month"
+msgstr ""
+
+#. Option for the 'Zatca - Registration Type' (Select) field in DocType 'Cost
+#. Center'
+#. Option for the 'Customer ID Type for ZATCA' (Select) field in DocType
+#. 'Customer'
+#. Option for the 'ZATCA - Registration Type' (Select) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "OTH"
+msgstr ""
+
+#. Label of the custom_otp (Data) field in DocType 'ZATCA Multiple Setting'
+#. Label of the custom_otp (Data) field in DocType 'Company'
+#. Label of the otp (Data) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:494
+msgid "OTP"
+msgstr ""
+
+#. Label of the custom_integrations (Tab Break) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Offline-Integrations"
+msgstr ""
+
+#. Option for the 'ZATCA Account Type' (Select) field in DocType 'Account'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Output Tax"
+msgstr ""
+
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Output VAT Report"
+msgstr ""
+
+#. Option for the 'Customer ID Type for ZATCA' (Select) field in DocType
+#. 'Customer'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "PAS"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.py:29
+msgid "POS Invoice No"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_final.py:311
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:987
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1342
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:974
+msgid "POS Profile is not set in the POS Invoice."
+msgstr ""
+
+#. Label of the custom_submit_line_item_discount_to_zatca (Check) field in
+#. DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "POS Submit line item discount to ZATCA( Applicable for POS Only ) "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_debug_xml.py:240
+msgid "POS name is required"
+msgstr ""
+
+#. Label of the custom_phase_1_or_2 (Select) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Phase 1 or 2 ?"
+msgstr ""
+
+#. Option for the 'Phase 1 or 2 ?' (Select) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Phase-1"
+msgstr ""
+
+#. Option for the 'Phase 1 or 2 ?' (Select) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Phase-2"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:505
+msgid "Please enter the OTP before proceeding."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1535
+msgid "Please provide the 'qr_code' data when 'xml' is filled for invoice: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_debug_xml.py:138
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1208
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1576
+msgid "Please provide the 'qr_code' field data when 'custom_xml' is filled for invoice: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/debug_xml.py:127
+msgid "Please provide the 'qr_code' field data when XML exists for invoice:"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1981
+msgid "Please provide the 'qr_code' field data when have'xml' for invoice: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1171
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1500
+msgid "Please save and submit the invoice before sending to ZATCA: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1537
+msgid "Please save and submit the invoice before sending to ZATCA:  "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:941
+msgid "Please select a Company to proceed."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:510
+msgid "Please select a company before activating CSID."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:394
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:751
+msgid "Please select a company before creating CSR."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:280
+msgid "Please select a company before proceeding."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:660
+msgid "Please select a company before running compliance checks."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:317
+msgid "Please select a company first."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_multiple_setting/zatca_multiple_setting.js:81
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_multiple_setting/zatca_multiple_setting.js:114
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_multiple_setting/zatca_multiple_setting.js:149
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_multiple_setting/zatca_multiple_setting.js:191
+msgid "Please select a linked doctype."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:405
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:520
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:761
+msgid "Please select a machine for offline POS."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:329
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:931
+msgid "Please select an Integration Type to proceed."
+msgstr ""
+
+#: zatca_erpgulf/public/js/resubmit.js:51
+#: zatca_erpgulf/public/js/resubmitpos.js:23
+msgid "Please select at least one Sales Invoice."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/validations.py:19
+msgid "Please send this invoice to ZATCA, before submitting"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1185
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1508
+msgid "Please submit the invoice before sending to ZATCA: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1551
+msgid "Please submit the invoice before sending to ZATCA:  "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/tax_error.py:73
+#: zatca_erpgulf/zatca_erpgulf/tax_error.py:80
+msgid "Please update the Cost Center with a valid `custom_zatca__registration_type`."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/tax_error.py:66
+msgid "Please update the Cost Center with a valid `custom_zatca_branch_address`."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_duplicate_uuid_invoices/zatca_duplicate_uuid_invoices.py:66
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.py:46
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.py:46
+msgid "Posting Date"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:1009
+msgid "Previous"
+msgstr ""
+
+#. Label of the custom_print_format (Link) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/public/js/our_sales_invoice.js:142
+msgid "Print Format"
+msgstr ""
+
+#: zatca_erpgulf/public/js/our_sales_invoice.js:134
+msgid "Print PDF-A3"
+msgstr ""
+
+#. Label of the custom_private_key (Small Text) field in DocType 'ZATCA
+#. Multiple Setting'
+#. Label of the custom_private_key (Small Text) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Private Key"
+msgstr ""
+
+#. Label of the private_key (Small Text) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Private key"
+msgstr ""
+
+#. Option for the 'Select' (Select) field in DocType 'Company'
+#. Option for the 'Select' (Select) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Production"
+msgstr ""
+
+#. Label of the production__csid__generation_section (Section Break) field in
+#. DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Production  CSID  Generation"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/submit_poswithqr_notmultiple.py:396
+#: zatca_erpgulf/zatca_erpgulf/submit_xml_qr_notmultiple.py:418
+msgid "Production CSID is missing in ZATCA XML."
+msgstr ""
+
+#. Label of the custom_production_url (Data) field in DocType 'Company'
+#. Label of the production_url (Data) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Production URL"
+msgstr ""
+
+#. Label of the custom_public_key (Small Text) field in DocType 'ZATCA Multiple
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Public key"
+msgstr ""
+
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Purchase Tax Templates"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/utils.py:48
+msgid "QR URL is required"
+msgstr ""
+
+#: zatca_erpgulf/public/js/draft.js:7
+msgid "Redirecting to {0}"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml.py:31
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:51
+msgid "Regex error in getting ICV number: "
+msgstr ""
+
+#. Label of the custom_reponse_from_zatca (Section Break) field in DocType 'POS
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Reponse from ZATCA"
+msgstr ""
+
+#. Label of a number card in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Reported This Month"
+msgstr ""
+
+#. Option for the 'Zatca - Registration Type' (Select) field in DocType 'Cost
+#. Center'
+#. Option for the 'Customer ID Type for ZATCA' (Select) field in DocType
+#. 'Customer'
+#. Option for the 'ZATCA - Registration Type' (Select) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "SAG"
+msgstr ""
+
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_duplicate_uuid_invoices/zatca_duplicate_uuid_invoices.py:53
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Sales Invoice"
+msgstr ""
+
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Sales Tax Templates"
+msgstr ""
+
+#. Label of the custom_sample_invoice_number_to_test (Data) field in DocType
+#. 'ZATCA Multiple Setting'
+#. Label of the custom_sample_invoice_number_to_test (Data) field in DocType
+#. 'Company'
+#. Label of the sample_invoice_to_test (Data) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Sample Invoice Number to Test"
+msgstr ""
+
+#. Option for the 'Select' (Select) field in DocType 'Company'
+#. Option for the 'Select' (Select) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Sandbox"
+msgstr ""
+
+#. Label of the custom_sandbox_url (Data) field in DocType 'Company'
+#. Label of the sandbox_url (Data) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Sandbox URL"
+msgstr ""
+
+#. Label of the custom_select (Select) field in DocType 'Company'
+#. Label of the select (Select) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Select"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:369
+msgid "Select Business Category"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:186
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:190
+msgid "Select Company"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:265
+msgid "Select Machine"
+msgstr ""
+
+#. Label of the custom_send_invoice_to_zatca (Select) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Select submission method for B2C  ( B2B always send Live as per ZATCA instruction )"
+msgstr ""
+
+#. Label of the background (Check) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Send Einvoice background"
+msgstr ""
+
+#: zatca_erpgulf/public/js/resubmit.js:48
+#: zatca_erpgulf/public/js/resubmitpos.js:20
+msgid "Send Invoices to ZATCA"
+msgstr ""
+
+#. Label of the custom_send_pos_invoices_to_zatca_on_background (Check) field
+#. in DocType 'ZATCA Multiple Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Send POS Invoices to ZATCA on background"
+msgstr ""
+
+#. Label of the send_invoice_to_zatca (Select) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Send POS invoice to zatca"
+msgstr ""
+
+#: zatca_erpgulf/public/js/our_pos_invoice.js:243
+#: zatca_erpgulf/public/js/our_sales_invoice.js:113
+msgid "Send invoice to ZATCA"
+msgstr ""
+
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'POS Invoice'
+#. Option for the 'Zatca Tax Category' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Services outside scope of tax / Not subject to VAT"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:229
+msgid "Setup canceled. Please select another company or exit the wizard."
+msgstr ""
+
+#. Label of a Card Break in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "Shortcuts"
+msgstr ""
+
+#. Option for the 'Validation Type' (Select) field in DocType 'ZATCA Multiple
+#. Setting'
+#. Option for the 'Validation Type' (Select) field in DocType 'Company'
+#. Option for the 'Validation Type' (Select) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Simplified Credit Note"
+msgstr ""
+
+#. Option for the 'Validation Type' (Select) field in DocType 'ZATCA Multiple
+#. Setting'
+#. Option for the 'Validation Type' (Select) field in DocType 'Company'
+#. Option for the 'Validation Type' (Select) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Simplified Debit Note"
+msgstr ""
+
+#. Option for the 'Validation Type' (Select) field in DocType 'ZATCA Multiple
+#. Setting'
+#. Option for the 'Validation Type' (Select) field in DocType 'Company'
+#. Option for the 'Validation Type' (Select) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Simplified Invoice"
+msgstr ""
+
+#. Option for the 'Select' (Select) field in DocType 'Company'
+#. Option for the 'Select' (Select) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Simulation"
+msgstr ""
+
+#. Label of the custom_simulation_url (Data) field in DocType 'Company'
+#. Label of the simulation_url (Data) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Simulation URL"
+msgstr ""
+
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'POS Invoice'
+#. Option for the 'Zatca Tax Category' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Standard"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Standard 15%"
+msgstr ""
+
+#. Option for the 'Validation Type' (Select) field in DocType 'ZATCA Multiple
+#. Setting'
+#. Option for the 'Validation Type' (Select) field in DocType 'Company'
+#. Option for the 'Validation Type' (Select) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Standard Credit Note"
+msgstr ""
+
+#. Option for the 'Validation Type' (Select) field in DocType 'ZATCA Multiple
+#. Setting'
+#. Option for the 'Validation Type' (Select) field in DocType 'Company'
+#. Option for the 'Validation Type' (Select) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Standard Debit Note"
+msgstr ""
+
+#. Option for the 'Validation Type' (Select) field in DocType 'ZATCA Multiple
+#. Setting'
+#. Option for the 'Validation Type' (Select) field in DocType 'Company'
+#. Option for the 'Validation Type' (Select) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Standard Invoice"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:162
+msgid "Start"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_status_report/zatca_status_report.js:25
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_status_report/zatca_status_report.py:10
+msgid "Status"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:834
+msgid "Steps to Follow Next"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:849
+msgid "Submit"
+msgstr ""
+
+#. Label of the custom_submit_line_item_discount_to_zatca (Check) field in
+#. DocType 'Sales Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Submit line item discount to ZATCA."
+msgstr ""
+
+#. Name of a role
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_event_log/zatca_erpgulf_event_log.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_success_log/zatca_erpgulf_success_log.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_multiple_setting/zatca_multiple_setting.json
+msgid "System Manager"
+msgstr ""
+
+#. Option for the 'Customer ID Type for ZATCA' (Select) field in DocType
+#. 'Customer'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "TIN"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/csr_configuration.py:27
+msgid "Tax ID (VAT number) is required."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/create_qr.py:97
+msgid "Tax ID missing for {} in the company document"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/validations.py:50
+msgid "Test save validated and stopped it here"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/csr_configuration.py:62
+msgid "Thank You! Successfully completed CSR configuration"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:1130
+msgid "Thank You! Successfully completed ZATCA Phase 2 integration."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:969
+msgid "The following field(s) are required: . Please fill them to proceed."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/tax_error.py:59
+msgid "This company requires a Cost Center"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:1328
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:1419
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1969
+msgid "This invoice has already been submitted to Zakat and Tax Authority."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/validations.py:28
+msgid "This invoice is already submitted to ZATCA. You cannot edit, cancel or save it."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1523
+msgid "This invoice is marked as PMM. Skipping ZATCA submission."
+msgstr ""
+
+#. Label of the warning (Heading) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "This page is maintained for backward compatibility only. Please use zatca setting inside company settings"
+msgstr ""
+
+#. Label of the time (Data) field in DocType 'ZATCA ERPGulf Event Log'
+#. Label of the time (Data) field in DocType 'ZATCA ERPGulf Success Log'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_event_log/zatca_erpgulf_event_log.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_success_log/zatca_erpgulf_success_log.json
+msgid "Time"
+msgstr ""
+
+#. Label of the title (Data) field in DocType 'ZATCA ERPGulf Event Log'
+#. Label of the title (Data) field in DocType 'ZATCA ERPGulf Success Log'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_event_log/zatca_erpgulf_event_log.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_success_log/zatca_erpgulf_success_log.json
+msgid "Title"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_status_report/zatca_status_report.js:19
+msgid "To"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/vat_report_zatca_on_sales_&_purchase/vat_report_zatca_on_sales_&_purchase.js:22
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_duplicate_uuid_invoices/zatca_duplicate_uuid_invoices.js:15
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.js:23
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.js:23
+msgid "To Date"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_status_report/zatca_status_report.py:9
+msgid "Total"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml.py:28
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:48
+msgid "Type error in getting ICV number: "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:94
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:36
+#: zatca_erpgulf/zatca_erpgulf/xml_tax_data.py:70
+msgid "Type error occurred in tax for item: "
+msgstr ""
+
+#. Label of the custom_urls__api_endpoints (Section Break) field in DocType
+#. 'Company'
+#. Label of the urls__api_endpoints_section (Section Break) field in DocType
+#. 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "URLs / API EndPoints"
+msgstr ""
+
+#. Label of the custom_uuid (Data) field in DocType 'ZATCA ERPGulf Event Log'
+#. Label of the custom_uuid (Data) field in DocType 'POS Invoice'
+#. Label of the custom_uuid (Small Text) field in DocType 'Sales Invoice'
+#. Label of the uuid (Small Text) field in DocType 'ZATCA ERPGulf Success Log'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_success_log/zatca_erpgulf_success_log.json
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_duplicate_uuid_invoices/zatca_duplicate_uuid_invoices.py:60
+msgid "UUID"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/wizardbutton.py:80
+msgid "UUID not found in the XML file."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:193
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:342
+msgid "Unsupported document type for CSR creation."
+msgstr ""
+
+#. Label of the custom_user_invoice_number (Data) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "User Invoice Number"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/vat_report_zatca_on_sales_&_purchase/vat_report_zatca_on_sales_&_purchase.py:662
+msgid "VAT Amount (SAR)"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:356
+msgid "VAT Registration No"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/report/vat_report_zatca_on_sales_&_purchase/vat_report_zatca_on_sales_&_purchase.json
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "VAT Report ZATCA on Sales & Purchase"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-29"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-29-7"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-30"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-32"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-33"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-34-1"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-34-2"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-34-3"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-34-4"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-34-5"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-35"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-36"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-36 "
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-EDU"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-HEA"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-MLTRY"
+msgstr ""
+
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'POS
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'Exemption Reason Code' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "VATEX-SA-OOS"
+msgstr ""
+
+#. Label of the custom_validation_type (Select) field in DocType 'ZATCA
+#. Multiple Setting'
+#. Label of the custom_validation_type (Select) field in DocType 'Company'
+#. Label of the validation_type (Select) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Validation Type"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.py:57
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.py:57
+msgid "Warning Code"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.py:62
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.py:62
+msgid "Warning Message"
+msgstr ""
+
+#. Label of the custom_zatca__company_category_for_csr_configuration (Data)
+#. field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA - Company category for CSR Configuration"
+msgstr ""
+
+#. Label of the custom_company_registration (Data) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA - Registration Number"
+msgstr ""
+
+#. Label of the custom_registration_type (Select) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA - Registration Type"
+msgstr ""
+
+#. Label of the custom_zatca_3rd_party_invoice (Check) field in DocType
+#. 'Purchase Invoice'
+#. Label of the custom_zatca_third_party_invoice (Check) field in DocType
+#. 'Sales Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA 3rd party invoice"
+msgstr ""
+
+#. Label of the custom_zatca_account_type (Select) field in DocType 'Account'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Account Type"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:623
+msgid "ZATCA Compliance Check"
+msgstr ""
+
+#. Label of the custom_zatca_compliance_check_check_all_options_below (Section
+#. Break) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Compliance Check. Check all options below."
+msgstr ""
+
+#. Label of a shortcut in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "ZATCA Detailed Dashboard"
+msgstr ""
+
+#. Label of the custom_integrations (Section Break) field in DocType 'POS
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Details"
+msgstr ""
+
+#. Label of the custom_zatca_discount_reason (Data) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Discount reason"
+msgstr ""
+
+#. Label of the custom_zatca_discount_reason_code (Data) field in DocType
+#. 'Sales Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Discount reason code"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_duplicate_uuid_invoices/zatca_duplicate_uuid_invoices.json
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "ZATCA Duplicate UUID Invoices"
+msgstr ""
+
+#. Name of a Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "ZATCA ERPGulf"
+msgstr ""
+
+#. Name of a DocType
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_event_log/zatca_erpgulf_event_log.json
+msgid "ZATCA ERPGulf Event Log"
+msgstr ""
+
+#. Name of a DocType
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_success_log/zatca_erpgulf_success_log.json
+msgid "ZATCA ERPGulf Success Log"
+msgstr ""
+
+#. Label of the custom_zatca_export_invoice (Check) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Export Invoice"
+msgstr ""
+
+#. Label of the custom_zatca_full_response (Long Text) field in DocType 'POS
+#. Invoice'
+#. Label of the custom_zatca_full_response (Long Text) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Full Response"
+msgstr ""
+
+#. Label of the custom_zatca_import_invoice (Check) field in DocType 'Purchase
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Import Invoice"
+msgstr ""
+
+#. Label of the custom_section_break_gqwpx (Section Break) field in DocType
+#. 'Sales Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Integration Feilds"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:292
+msgid "ZATCA Integration Type"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1194
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice.py:1517
+msgid "ZATCA Invoice is not enabled in Company Settings, Please contact your system administrator"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1527
+msgid "ZATCA Invoice is not enabled in the Company settings, Please contact your system administrator"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_debug_xml.py:109
+msgid "ZATCA Invoice is not enabled. Submitting the document."
+msgstr ""
+
+#. Name of a DocType
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_multiple_setting/zatca_multiple_setting.json
+msgid "ZATCA Multiple Setting"
+msgstr ""
+
+#. Label of the custom_zatca_nominal_invoice (Check) field in DocType 'Purchase
+#. Invoice'
+#. Label of the custom_zatca_nominal_invoice (Check) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA NOMINAL Invoice"
+msgstr ""
+
+#. Label of the custom_zatca_offline_machines (Table) field in DocType
+#. 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Offline Machines"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/debug_xml.py:111
+msgid "ZATCA PMM is enabled for this invoice. Skipping ZATCA XML generation."
+msgstr ""
+
+#. Label of the custom_zatca_pmm (Check) field in DocType 'Sales Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA PMM(Profit Margin Method)"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.json
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "ZATCA POS Invoices with warnings"
+msgstr ""
+
+#. Label of the custom_zatca_pos_name (Link) field in DocType 'Sales Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA POS Machine name"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/tax_error.py:28
+msgid "ZATCA POS Machine name is missing for invoice, Add ZATCA POS machine name"
+msgstr ""
+
+#. Label of the custom_zatca_pos_name (Link) field in DocType 'POS Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA POS Name"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:149
+msgid "ZATCA Phase 2 Wizard (ERPGulf)"
+msgstr ""
+
+#: zatca_erpgulf/public/js/our_pos_invoice.js:257
+#: zatca_erpgulf/public/js/our_sales_invoice.js:127
+msgid "ZATCA Phase-2"
+msgstr ""
+
+#. Name of a report
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.json
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "ZATCA Sales Invoices with warnings"
+msgstr ""
+
+#. Label of the custom_zatca_self_billed_invoice (Check) field in DocType
+#. 'Purchase Invoice'
+#. Label of the custom_self_billed_invoice (Check) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Self billed Invoice"
+msgstr ""
+
+#. Label of the custom_zatca_setting (Tab Break) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Setting"
+msgstr ""
+
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "ZATCA Setup Wizard"
+msgstr ""
+
+#. Label of the custom_zatca_status (Data) field in DocType 'POS Invoice'
+#. Label of the custom_zatca_status (Data) field in DocType 'Sales Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_pos_invoices_with_warnings/zatca_pos_invoices_with_warnings.py:52
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_sales_invoices_with_warnings/zatca_sales_invoices_with_warnings.py:52
+msgid "ZATCA Status"
+msgstr ""
+
+#. Label of the custom_zatca_status_notification (HTML) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Status Notification"
+msgstr ""
+
+#. Label of a Link in the ZATCA ERPGulf Workspace
+#: zatca_erpgulf/zatca_erpgulf/workspace/zatca_erpgulf/zatca_erpgulf.json
+msgid "ZATCA Status Report"
+msgstr ""
+
+#. Label of the custom_zatca_status_notification (HTML) field in DocType 'POS
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Status notification"
+msgstr ""
+
+#. Label of the custom_zatca_summary_invoice (Check) field in DocType 'Purchase
+#. Invoice'
+#. Label of the custom_summary_invoice (Check) field in DocType 'Sales Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Summary Invoice"
+msgstr ""
+
+#. Label of the custom_zatca_tax_category (Select) field in DocType 'POS
+#. Invoice'
+#. Label of the custom_zatca_tax_category (Select) field in DocType 'Purchase
+#. Invoice'
+#. Label of the custom_zatca_tax_category (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA Tax Category"
+msgstr ""
+
+#. Label of the custom_zatca_invoice_enabled (Check) field in DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA invoice enabled"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:525
+msgid "ZATCA requires a proper address. Please add"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:217
+msgid "ZATCA setup already exists for this company. Do you want to override the existing setup?"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:1298
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:1387
+msgid "ZATCA tax category should be 'Zero Rated', 'Exempted', or 'Services outside scope of tax / Not subject to VAT' for items with tax rate not equal to 5.00 or 15.00."
+msgstr ""
+
+#. Label of the custom_b2c (Check) field in DocType 'Customer'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA type Simplified ( B2C ) "
+msgstr ""
+
+#. Label of the custom_zatca__location_for_csr_configuratoin (Data) field in
+#. DocType 'Company'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "ZATCA- Location for CSR Configuratoin"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:366
+msgid "ZIP Code"
+msgstr ""
+
+#. Label of the custom_zatca__registration_number (Data) field in DocType 'Cost
+#. Center'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Zatca - Registration Number"
+msgstr ""
+
+#. Label of the custom_zatca__registration_type (Select) field in DocType 'Cost
+#. Center'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Zatca - Registration Type"
+msgstr ""
+
+#. Label of the custom_zatca_branch_address (Link) field in DocType 'Cost
+#. Center'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Zatca Branch Address"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/zatca_dashboard/zatca_dashboard.js:31
+msgid "Zatca Charts"
+msgstr ""
+
+#. Label of the zatca_compliance_check_check_all_options_below_section (Section
+#. Break) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Zatca Compliance Check. Check all options below."
+msgstr ""
+
+#. Name of a DocType
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Zatca ERPgulf Setting"
+msgstr ""
+
+#. Label of the custom_zatca (Section Break) field in DocType 'POS Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Zatca Integration Feilds"
+msgstr ""
+
+#. Label of the custom_section_break_fse8j (Section Break) field in DocType
+#. 'Purchase Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Zatca Integration feilds"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/debug_xml.py:108
+msgid "Zatca Invoice is not enabled. Submitting the document."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/zatca_dashboard/zatca_dashboard.js:41
+msgid "Zatca List"
+msgstr ""
+
+#. Label of the zatca_multiple_setting (Link) field in DocType 'Zatca POS
+#. table'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_pos_table/zatca_pos_table.json
+msgid "Zatca Multiple setting"
+msgstr ""
+
+#. Name of a DocType
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_pos_table/zatca_pos_table.json
+msgid "Zatca POS table"
+msgstr ""
+
+#. Name of a report
+#: zatca_erpgulf/zatca_erpgulf/report/zatca_status_report/zatca_status_report.json
+msgid "Zatca Status Report"
+msgstr ""
+
+#. Label of the custom_zatca_tax_category (Select) field in DocType 'Item Tax
+#. Template'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Zatca Tax Category"
+msgstr ""
+
+#. Label of the zatca_invoice_enabled (Check) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "Zatca invoice enabled"
+msgstr ""
+
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'POS Invoice'
+#. Option for the 'Zatca Tax Category' (Select) field in DocType 'Item Tax
+#. Template'
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'Purchase
+#. Invoice'
+#. Option for the 'ZATCA Tax Category' (Select) field in DocType 'Sales
+#. Invoice'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "Zero Rated"
+msgstr ""
+
+#. Label of the custom_certificate (Long Text) field in DocType 'Company'
+#. Label of the certificate (Long Text) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "certificate"
+msgstr ""
+
+#. Label of the custom_check_compliance (Button) field in DocType 'ZATCA
+#. Multiple Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "check compliance"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_schedule_background.py:87
+#: zatca_erpgulf/zatca_erpgulf/pos_submit__without_xml.py:87
+msgid "customer should be B2C pos without xml during create xml"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sales_invoice_withoutxml.py:133
+#: zatca_erpgulf/zatca_erpgulf/zatca_background_sched.py:134
+msgid "customer should be B2C sales invoice with xml during create xml"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sales_invoice_withoutxml.py:226
+#: zatca_erpgulf/zatca_erpgulf/zatca_background_sched.py:227
+msgid "customer should be B2C type required for simplified invoice"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sales_invoice_with_xmlqr.py:444
+msgid "error"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:716
+msgid "error in getting the tlv data value:"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:378
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:540
+msgid "error occurred in canonicalise xml "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:214
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:287
+msgid "error occurred while creating csr for company {company_abbr} "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:368
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:530
+msgid "error occurred win removing tags "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:109
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:161
+msgid "error while creating the private key for company {company_abbr} "
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/tax_error.py:95
+msgid "for item '{item.item_code}' does not exist."
+msgstr ""
+
+#. Label of the custom_linked_doctype (Link) field in DocType 'ZATCA Multiple
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+msgid "linked doctype"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/advance_payment.py:446
+#: zatca_erpgulf/zatca_erpgulf/createxml.py:576
+msgid "no Cost Center is set in the invoice.Give the feild"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:359
+msgid "no otp."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:222
+msgid "no private key."
+msgstr ""
+
+#. Label of the custom_pih (Data) field in DocType 'ZATCA Multiple Setting'
+#. Label of the custom_pih (Small Text) field in DocType 'Company'
+#. Label of the pih (Small Text) field in DocType 'Zatca ERPgulf Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "pih"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1214
+#: zatca_erpgulf/zatca_erpgulf/pos_sign.py:1582
+msgid "pos name required"
+msgstr ""
+
+#. Label of the custom_public_key (Small Text) field in DocType 'Company'
+#. Label of the public_key (Small Text) field in DocType 'Zatca ERPgulf
+#. Setting'
+#: zatca_erpgulf/fixtures/custom_field.json
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_setting/zatca_erpgulf_setting.json
+msgid "public key"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/posxml.py:547
+msgid "require address of company"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml.py:562
+msgid "requires a proper company address. Please add an address"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/createxml_advance.py:233
+#: zatca_erpgulf/zatca_erpgulf/sign_invoice_first.py:306
+#: zatca_erpgulf/zatca_erpgulf/wizardbutton.py:25
+msgid "unexpected error occurred api for company {company_abbr} "
+msgstr ""
+
+#. Label of the zatca_response (Long Text) field in DocType 'ZATCA ERPGulf
+#. Success Log'
+#: zatca_erpgulf/zatca_erpgulf/doctype/zatca_erpgulf_success_log/zatca_erpgulf_success_log.json
+msgid "zatca_response"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:874
+msgid "⚠️ Failed to enable 'ZATCA Invoice'. Please check logs."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:990
+msgid "⚠️ Failed to update Company details. Please try again."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:918
+msgid "⚠️ Please complete all compliance checks before proceeding."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/tax_error.py:133
+msgid "⚠️As per ZATCA regulation, Missing Advance Sales Invoice referncename in feting details .If there is no advance sales invoice,then remove the row from the table"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:872
+msgid "✅ 'ZATCA Invoice Enabled' has been activated for the company."
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/page/setup_zatca_phase_2/setup_zatca_phase_2.js:988
+msgid "✅ Company details have been updated successfully."
+msgstr ""
+
+#: zatca_erpgulf/public/js/our_pos_invoice.js:351
+#: zatca_erpgulf/public/js/our_sales_invoice.js:461
+msgid "✅ Debug XML attached successfully!"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/pos_debug_xml.py:243
+msgid "✅ XML already attached for this POS invoice"
+msgstr ""
+
+#: zatca_erpgulf/zatca_erpgulf/debug_xml.py:275
+#: zatca_erpgulf/zatca_erpgulf/pos_debug_xml.py:248
+msgid "✅ XML/QR already attached"
+msgstr ""
+

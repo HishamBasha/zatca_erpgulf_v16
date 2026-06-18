@@ -4,6 +4,7 @@ import base64
 from frappe import _
 import frappe
 import requests
+from .utils import publish_realtime_safe
 from lxml import etree
 from zatca_erpgulf.zatca_erpgulf.event_log import log_zatca_event
 
@@ -86,7 +87,8 @@ def extract_uuid_and_invoicehash(file_path):
     """
     try:
         # Read the file content as bytes
-        with open(frappe.local.site + file_path, "rb") as file: # nosemgrep: frappe-semgrep-rules.rules.security.frappe-security-file-traversal
+        site_file_path = frappe.get_site_path(file_path.lstrip("/"))
+        with open(site_file_path, "rb") as file: # nosemgrep: frappe-semgrep-rules.rules.security.frappe-security-file-traversal
             custom_xml = file.read()
 
         # Parse the XML string as bytes
@@ -167,10 +169,10 @@ def reporting_api_xml_sales_invoice(
         }
 
         try:
-            frappe.publish_realtime(
+            publish_realtime_safe(
                 "show_gif",
                 {"gif_url": "/assets/zatca_erpgulf/js/loading.gif"},
-                user=frappe.session.user,
+                user=getattr(getattr(frappe, "session", None), "user", None),
             )
             response = requests.post(
                 url=get_api_url(company_abbr, base_url="invoices/reporting/single"),
@@ -178,7 +180,7 @@ def reporting_api_xml_sales_invoice(
                 json=payload,
                 timeout=300,
             )
-            frappe.publish_realtime("hide_gif", user=frappe.session.user)
+            publish_realtime_safe("hide_gif", user=getattr(getattr(frappe, "session", None), "user", None))
             if response.status_code in (200, 202, 409):
                 if response.status_code == 200:
                     status_label = "Success"
@@ -446,7 +448,7 @@ def submit_sales_invoice_withxmlqr(sales_invoice_doc, file_path, invoice_number)
         reporting_api_xml_sales_invoice(
             uuid1,
             encoded_hash,
-            frappe.local.site + file_path,
+            frappe.get_site_path(file_path.lstrip("/")),
             invoice_number,
             sales_invoice_doc,
         )

@@ -195,9 +195,7 @@ def debug_call(
             qrcodeb64 = base64.b64encode(qrcodebuf).decode("utf-8")
             updated_xml_string = update_qr_toxml(final_xml_string, qrcodeb64, company_abbr)
 
-            signed_xmlfile_name = structuring_signedxml(invoice_number ,updated_xml_string)
-            safe_invoice_number = invoice_number.replace("/", "-")
-            signed_xmlfile_name = f"{frappe.local.site}/private/files/final_xml_after_indent_{safe_invoice_number}.xml"
+            signed_xmlfile_name = structuring_signedxml(invoice_number, updated_xml_string)
             debug_filename = f"DEBUG_INVOICE_{invoice_doc.name}.xml"
             # nosemgrep: frappe-semgrep-rules.rules.security.frappe-security-file-traversal
             with open(signed_xmlfile_name, "r", encoding="utf-8") as f:

@@ -49,6 +49,7 @@ from zatca_erpgulf.zatca_erpgulf.createxml_advance import (
 from zatca_erpgulf.zatca_erpgulf.sign_invoice import get_api_url, attach_qr_image
 
 from zatca_erpgulf.zatca_erpgulf.create_qr import create_qr_code
+from .utils import publish_realtime_safe
 
 ITEM_TAX_TEMPLATE = "Item Tax Template"
 CAC_TAX_TOTAL = "cac:TaxTotal"
@@ -885,10 +886,10 @@ def clearance_api(
         else:
             frappe.throw(_(f"Production CSID for company {company_abbr} not found."))
             headers = None
-        frappe.publish_realtime(
+        publish_realtime_safe(
             "show_gif",
             {"gif_url": "/assets/zatca_erpgulf/js/loading.gif"},
-            user=frappe.session.user,
+            user=getattr(getattr(frappe, "session", None), "user", None),
         )
 
         response = requests.post(
@@ -897,7 +898,9 @@ def clearance_api(
             json=payload,
             timeout=300,
         )
-        frappe.publish_realtime("hide_gif", user=frappe.session.user)
+        publish_realtime_safe(
+            "hide_gif", user=getattr(getattr(frappe, "session", None), "user", None)
+        )
 
         if response.status_code in (400, 405, 406, 409):
             invoice_doc = frappe.get_doc("Advance Sales Invoice", invoice_number)

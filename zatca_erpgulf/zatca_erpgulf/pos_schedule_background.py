@@ -50,6 +50,7 @@ from zatca_erpgulf.zatca_erpgulf.sign_invoice_first import (
     update_qr_toxml,
     compliance_api_call,
 )
+from .utils import publish_realtime_safe
 
 ITEM_TAX_TEMPLATE_WARNING = "If any one item has an Item Tax Template,"
 " all items must have an Item Tax Template."
@@ -256,10 +257,10 @@ def reporting_api_pos_without_xml(
         }
         if company_doc.custom_send_invoice_to_zatca not in ["Batches", "Background"]:
             try:
-                frappe.publish_realtime(
+                publish_realtime_safe(
                     "show_gif",
                     {"gif_url": "/assets/zatca_erpgulf/js/loading.gif"},
-                    user=frappe.session.user,
+                    user=getattr(getattr(frappe, "session", None), "user", None),
                 )
                 response = requests.post(
                     url=get_api_url(company_abbr, base_url="invoices/reporting/single"),
@@ -267,7 +268,7 @@ def reporting_api_pos_without_xml(
                     json=payload,
                     timeout=300,
                 )
-                frappe.publish_realtime("hide_gif", user=frappe.session.user)
+                publish_realtime_safe("hide_gif", user=getattr(getattr(frappe, "session", None), "user", None))
                 if response.status_code in (200, 202, 409):
                     if response.status_code == 200:
                         status_label = "Success"

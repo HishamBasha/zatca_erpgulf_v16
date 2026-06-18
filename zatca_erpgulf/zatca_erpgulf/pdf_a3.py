@@ -35,7 +35,7 @@ def generate_invoice_pdf(invoice, language, letterhead=None, print_format=None):
     pdf_content = get_pdf(html)
     safe_invoice_name = invoice_name.replace("/", "-")
     # Set the path for saving the generated PDF
-    site_path = frappe.local.site  # Get the site path
+    site_path = frappe.get_site_path()
     file_name = f"{safe_invoice_name}.pdf"
     file_path = os.path.join(site_path, "private", "files", file_name)
 
@@ -202,7 +202,7 @@ def embed_file_in_pdf(invoice_name :str, print_format :str | None = None, letter
             file_name = att["file_name"]
 
             if file_name == cleared_xml_file_name or file_name == reported_xml_file_name:
-                xml_file = os.path.join(frappe.local.site_path, "private", "files", file_name)
+                xml_file = frappe.get_site_path("private", "files", file_name)
                 break
 
         if not xml_file:
@@ -232,9 +232,7 @@ def embed_file_in_pdf(invoice_name :str, print_format :str | None = None, letter
         )
 
         # final_pdf = frappe.local.site + "/private/files/" + invoice_name + "output.pdf"
-        final_pdf = (
-            frappe.local.site + "/private/files/PDF-A3 " + safe_invoice_name + " output.pdf"
-        )
+        final_pdf = frappe.get_site_path("private", "files", f"PDF-A3 {safe_invoice_name} output.pdf")
         # frappe.msgprint(f"Embedding XML into: {input_pdf}")
         with pikepdf.Pdf.open(input_pdf, allow_overwriting_input=True) as pdf:
             with open(xml_file, "rb") as xml_attachment: # nosemgrep: frappe-semgrep-rules.rules.security.frappe-security-file-traversal
