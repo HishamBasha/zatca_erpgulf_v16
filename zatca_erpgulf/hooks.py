@@ -86,4 +86,9 @@ fixtures = [
     },
     {"dt": "Custom Field", "filters": [["module", "=", "Zatca Erpgulf"]]},
 ]
-import zatca_erpgulf.overrides.return_validation
+try:
+    # optional import for overrides; avoid failing app import if module is missing
+    import zatca_erpgulf.overrides.return_validation  # type: ignore
+except Exception:
+    # Log at import time may not be available; fail silently to keep app import stable
+    pass
