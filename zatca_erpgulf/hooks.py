@@ -15,7 +15,7 @@ add_to_apps_screen = [
         "name": app_name,
         "logo": "/assets/zatca_erpgulf/images/ERPGulf.png",
         "title": app_title,
-        "route": "/app/zatca-erpgulf",  # <-- add leading /app/
+        "route": app_home,
     }
 ]
 
@@ -82,7 +82,7 @@ app_include_js = "/assets/zatca_erpgulf/js/tooltip.js"
 fixtures = [
     {
         "dt": "Desktop Icon",
-        "filters": [["label", "=", "ZATCA ERPGulf"]]
+        "filters": [["label", "=", app_title]]
     },
     {"dt": "Custom Field", "filters": [["module", "=", "Zatca Erpgulf"]]},
 ]
